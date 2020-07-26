@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
+
+    <!-- disables pinch-scaling of the webview, so that gestures only do what they're supposed to -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+
+    <title></title>
+
+    <!-- load architect javascript file from wikitude site -->
+    <script src="https://www.wikitude.com/libs/architect.js"></script>
+    <!-- load javascript file code -->
+    <script type="text/javascript" src="../ade.js"></script>
+
+    <!-- apply css file -->
+    <link rel="stylesheet" href="css/default.css">
+</head>
+
+<body>
+<div id="infoBox" class="info">
+    <div id="foundinfo"></div>
+</div>
+<div id="loadingMessage" class="info">Waiting for object ...</div>
+
+<script src="js/objectrec.js"></script>
+
+<!-- button 'Add' -->
+<div class="wrapper">
+    <input type="button" id="scanbutton" class="roundbutton" value="Add" onClick="changeActivity()" />
+</div>
+
+</body>
+</html>
+

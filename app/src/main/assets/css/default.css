@@ -1,0 +1,33 @@
+.info {
+    font-size: large;
+    position: absolute;
+    width: 100%;
+    padding-top: calc(12px + env(safe-area-inset-top));
+    padding-bottom: 12px;
+    background-color: #BBBBBB;
+    text-align: center;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    display: table;
+    font-weight: bold;
+}
+
+#infoBox {
+    font-weight: bold;
+}
+
+.roundbutton {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 2%;
+    visibility: hidden;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
