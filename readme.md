@@ -49,7 +49,7 @@ For this application to work as it is, the following artifacts must be owned, wh
 
 * Clone or download repository:
 
-        git clone https://github.com/Alexf97/MuseumAR.git
+        git clone https://github.com/AlexFlorides/MuseumAR.git
 
 * open project in Android Studio and update any libraries and plugins it might have
 * building the project creates an .apk file, located: app\build\outputs\apk\debug
